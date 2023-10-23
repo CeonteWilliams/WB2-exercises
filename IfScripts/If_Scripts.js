@@ -1,13 +1,13 @@
 "use strict"
 
  //let payRate = 12.50
-// let hoursWorked = 20
+ //let hoursWorked = 20
 
-// let payRate = 25.00
-// let hoursWorked = 40
+ //let payRate = 25.00
+ //let hoursWorked = 40
 
-//let payRate = 17.30
-//let hoursWorked = 45
+let payRate = 17.30
+let hoursWorked = 45
 
 
 
@@ -21,21 +21,21 @@ let comida = (soup + pb)
 
 let GrossPay = hoursWorked * payRate; 
 
-if (hoursWorked === 40) {
+//if (hoursWorked === 40) {
     GrossPay = hoursWorked * payRate; 
-}
+//}
 
 if (hoursWorked < 40) {
     payRate = 12.50
 }
 
-if (hoursWorked > 40) {
+//if (hoursWorked > 40) {
     payRate = comida
-}
+//}
 
 
 
 
- //GrossPay = hoursWorked * payRate; 
+ GrossPay = hoursWorked * payRate; 
 GrossPay = comida;
 console.log(GrossPay);
